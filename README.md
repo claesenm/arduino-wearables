@@ -13,6 +13,8 @@ Information about all sensors is available at [cooking hacks](https://www.cookin
 5. You should now be able to access the MongoDB that is hosted by the RPi from your own laptop at `
 'mongodb://192.168.42.1:27017/'` (no username/password required).
 
+To interface with MongoDB from Python use [pymongo](https://api.mongodb.com/python/current/) (available on [PyPI](https://pypi.python.org/pypi/pymongo)).
+
 For plotting libraries, some good places to start are:
 - matplotlib (Python's default plotting library): http://matplotlib.org/
 - D3.js (cool javascript plots, very popular): https://d3js.org/
