@@ -15,6 +15,8 @@ Information about all sensors is available at [cooking hacks](https://www.cookin
 
 To interface with MongoDB from Python use [pymongo](https://api.mongodb.com/python/current/) (available on [PyPI](https://pypi.python.org/pypi/pymongo)).
 
+The Arduino is configured to send sensor readouts every 50 ms, so no need to update parameters any faster than that.
+
 For plotting libraries, some good places to start are:
 - matplotlib (Python's default plotting library): http://matplotlib.org/
 - D3.js (cool javascript plots, very popular): https://d3js.org/
