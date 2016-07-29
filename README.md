@@ -11,7 +11,7 @@ Prototype exhibitions for the Health House based on Arduino, Raspberry Pi &amp; 
 5. You should now be able to access the MongoDB that is hosted by the RPi from your own laptop at `
 'mongodb://192.168.42.1:27017/'` (no username/password required).
 
-For plotting libraries, a good place to start are:
-- matplotlib: http://matplotlib.org/
-- mpld3: http://mpld3.github.io/
-- D3.js: https://d3js.org/
+For plotting libraries, some good places to start are:
+- matplotlib (Python's default plotting library): http://matplotlib.org/
+- D3.js (cool javascript plots, very popular): https://d3js.org/
+- mpld3 (matplotlib interface to D3.js): http://mpld3.github.io/
