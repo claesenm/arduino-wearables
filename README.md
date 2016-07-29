@@ -9,7 +9,7 @@ Information about all sensors is available at [cooking hacks](https://www.cookin
 1. Attach your favorite sensors to the Arduino's health sensor shield.
 2. Plug the RPi back in, it will automatically boot and set up the `Raspberry_WiPi` access point.
 3. Connect to `Raspberry_WiPi` (password: 'wearables').
-4. SSH into the RPi (ip 192.168.42.1, password 'raspberry') and run `sudo read_serial` until it starts spamming sensor readouts (sudo password is 'raspberry'). This may take a few tries. If it refuses to work, unplug RPi and try again. Keep the connection open.
+4. SSH into the RPi (ip 192.168.42.1, password 'raspberry' if you are connected to `Raspberry_WiPi`) and run `sudo read_serial` until it starts spamming sensor readouts (sudo password is 'raspberry'). This may take a few tries. If it refuses to work, unplug RPi and try again. Keep the connection open.
 5. You should now be able to access the MongoDB that is hosted by the RPi from your own laptop at `
 'mongodb://192.168.42.1:27017/'` (no username/password required).
 
