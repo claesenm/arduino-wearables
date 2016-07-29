@@ -1,6 +1,8 @@
 # arduino-wearables
 Prototype exhibitions for the Health House based on Arduino, Raspberry Pi &amp; the health sensor kit.
 
+Information about all sensors is available at [cooking hacks](https://www.cooking-hacks.com/documentation/tutorials/ehealth-biometric-sensor-platform-arduino-raspberry-pi-medical/). Make sure to read carefully before attaching a new sensor.
+
 ## Basic steps
 
 1. Unplug the RPi, which will kill power to the Arduino too.
